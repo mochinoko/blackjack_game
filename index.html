@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>black jack sample</title>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="raphael.js"></script>
+    <script type="text/javascript">
+    </script>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body onLoad="initGame();">
+<h2>Dealer</h2>
+<div style="width:100%;height:200px" id="dealer"></div>
+<br/>
+<div id="message"></div>
+<br/>
+<h2>Player</h2>
+<div style="width:100%;height:200px" id="player"></div>
+<br/>
+<input type="button" id="drawCard" value="draw card" onClick="drawCard();">
+<input type="button" id="finGame" value="stand" onClick="finGame();">
+<input type="button" value="clear" onClick="initGame();">
+<br/>
+</body>
+</html>
